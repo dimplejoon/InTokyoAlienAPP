@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.IntroActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/titleYellow"
+            android:text="@string/login_title"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="395dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="303dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/izakaya" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="305dp"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/yellow_start" />
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:text="@string/sign_up"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:background="@drawable/background_radius"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"/>
+
+             <Button
+                 android:layout_width="match_parent"
+                 android:background="@drawable/background_radius"
+                 android:textSize="20sp"
+                 android:textStyle="italic"
+                 android:layout_height="60dp"
+                 android:text="@string/sign_in"
+                 android:layout_margin="3dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:background="@drawable/background_radius"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:layout_height="60dp"
+                android:text="@string/without_sign_in"
+                android:layout_margin="3dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:background="@drawable/background_radius"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:layout_height="60dp"
+                android:text="@string/Privcy_Policy"
+                android:layout_margin="3dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

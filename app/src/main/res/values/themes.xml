@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KoreanMan_In_Tokyo_app" parent="Theme.AppCompat.Light">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.KoreanMan_In_Tokyo_app" parent="Base.Theme.KoreanMan_In_Tokyo_app" />
+</resources>
