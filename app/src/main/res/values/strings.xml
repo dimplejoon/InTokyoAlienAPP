@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">KoreanMan_In_Tokyo_app</string>
     <string name="login_title">We\'re legal Alien</string>
-    <string name="sign_in">sign in</string>
-    <string name="sign_up">sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
     <string name="without_sign_in">Only Access</string>
-    <string name="Privcy_Policy">Policy</string>
+    <string name="privcy_Policy">Policy</string>
+    <string name="password">Password</string>
+    <string name="password_check">Password Check</string>
+    <string name="email">Email</string>
 </resources>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<layout>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -13,7 +15,7 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="200dp"
             android:background="@color/titleYellow"
             android:text="@string/login_title"
             android:textColor="@color/white"
@@ -43,7 +45,8 @@
             android:orientation="vertical">
 
             <Button
-                android:text="@string/sign_up"
+                android:id="@+id/signinBtn"
+                android:text="@string/sign_in"
                 android:textSize="20sp"
                 android:textStyle="italic"
                 android:background="@drawable/background_radius"
@@ -52,30 +55,33 @@
                 android:layout_margin="3dp"/>
 
              <Button
+                 android:id="@+id/signupBtn"
+                 android:text="@string/sign_up"
                  android:layout_width="match_parent"
                  android:background="@drawable/background_radius"
                  android:textSize="20sp"
                  android:textStyle="italic"
                  android:layout_height="60dp"
-                 android:text="@string/sign_in"
                  android:layout_margin="3dp"/>
 
             <Button
+                android:id="@+id/onlyAccessBtn"
+                android:text="@string/without_sign_in"
                 android:layout_width="match_parent"
                 android:background="@drawable/background_radius"
                 android:textSize="20sp"
                 android:textStyle="italic"
                 android:layout_height="60dp"
-                android:text="@string/without_sign_in"
                 android:layout_margin="3dp"/>
 
             <Button
+                android:id="@+id/poicyBtn"
+                android:text="@string/privcy_Policy"
                 android:layout_width="match_parent"
                 android:background="@drawable/background_radius"
                 android:textSize="20sp"
                 android:textStyle="italic"
                 android:layout_height="60dp"
-                android:text="@string/Privcy_Policy"
                 android:layout_margin="3dp"/>
 
         </LinearLayout>
@@ -83,3 +89,5 @@
     </RelativeLayout>
 
 </LinearLayout>
+    
+</layout>
