@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "612170952877",
+    "project_id": "tipslivingalone",
+    "storage_bucket": "tipslivingalone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612170952877:android:c16b3c4d6d29200e951624",
+        "android_client_info": {
+          "package_name": "com.joon.koreanman_in_tokyo_app.auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm4R73p0tEHY2u-MEEDpmgIwETDn6YEL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
