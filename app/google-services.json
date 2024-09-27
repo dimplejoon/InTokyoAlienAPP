@@ -7,6 +7,25 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:612170952877:android:82a0a633f45ba87a951624",
+        "android_client_info": {
+          "package_name": "com.joon.koreanman_in_tokyo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm4R73p0tEHY2u-MEEDpmgIwETDn6YEL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:612170952877:android:c16b3c4d6d29200e951624",
         "android_client_info": {
           "package_name": "com.joon.koreanman_in_tokyo_app.auth"
